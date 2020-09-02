@@ -160,10 +160,8 @@ then all options listed below will be evaluated.  If set ``false``, then no chec
 ``` FORTRAN
 !! If outside tabulated range, write error message
 notify_outside_table  = .true. ![default = .true.]
-!! If outside tabulated range, stop
+!! If outside tabulated range, stop, otherwise evaluate at last P,T inside tabluated range.
 stop_outside_table    = .true. ![default = .true.]
-!! If outside tabulated range, evaluate at closest grid point instead
-jump_back_to_border   = .true. ![default = .true.]
 ```
 The options can be set either in the source code of the module or set them somewhere in the parent program, e.g.,
 ```FORTRAN
@@ -196,12 +194,12 @@ END PROGRAM MY_PROGRAM
 - [Brown, J. M. 2018, Fluid Phase Equilibria, 463, 18](https://www.sciencedirect.com/science/article/pii/S0378381218300530)
 - [Journaux, B., Brown, J. M., Pakhomova, A., et al. 2020, Journal of Geophysical
   Research: Planets, 125, e2019JE006176](https://doi.org/10.1029/2019JE006176)
-- [McBride, B. J. G. 1996, Computer Program for Calculation of Complex Chem-
+- McBride, B. J. G. 1996, Computer Program for Calculation of Complex Chem-
   ical Equilibrium Compositions and Applications II. Users Manual and Pro-
-  gram Description, Tech. rep., NASA Lewis Research Center]()
-- [Gordon, S. 1994, Computer Program for Calculation of Complex Chemical
+  gram Description, Tech. rep., NASA Lewis Research Center
+- Gordon, S. 1994, Computer Program for Calculation of Complex Chemical
   Equilibrium Compositions and Applications. Part 1: Analysis, Tech. rep.,
-  NASA Lewis Research Center]()
+  NASA Lewis Research Center
 
 ## License
 
