@@ -1,5 +1,5 @@
 # AQUA-Equation of State
-[![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) ![Release](https://img.shields.io/github/v/release/mnijh/AQUA)
+[![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) ![Release](https://img.shields.io/github/v/release/mnijh/AQUA?include_prereleases)
 
 ![Header](AQUA_title.jpg)
 
