@@ -48,7 +48,7 @@ will do the job.
 After that you can simply clone the repository using
 
 ```bash
-git clone git@github.com:mnijh/aqua.git
+git clone git@github.com:mnijh/AQUA.git
 ```
 
 If you don't want to clone the github repository, you can either download the repository as a .zip file or download each table separately, after you opened them here on the github website (see [Tables](Tables)). 
