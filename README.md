@@ -51,6 +51,19 @@ After that you can simply clone the repository using
 git clone git@github.com:mnijh/AQUA.git
 ```
 
+To reduce bandwidth usage, we compressed the tables into `.zip` files. Hence, you need to extract them first, before you can use them.
+
+```bash
+# For Linux and Mac.
+cd Tables
+unzip aqua_eos_pt_v1_0.zip
+unzip aqua_eos_rhot_v1_0.zip
+unzip aqua_eos_rhou_v1_0.zip
+# On windows, just use the file explorer to extract them...
+```
+
+
+
 If you don't want to clone the github repository, you can either download the repository as a .zip file or download each table separately, after you opened them here on the github website (see [Tables](Tables)). 
 
 ## Using the Fortran module

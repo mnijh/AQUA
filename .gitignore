@@ -2,3 +2,4 @@
 *.mod
 Fortran/sample_implementation
 *.py
+*.dat
