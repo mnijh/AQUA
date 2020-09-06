@@ -1,1 +1,4 @@
 *.dat filter=lfs diff=lfs merge=lfs -text
+Tables/aqua_eos_pt_v1_0.zip filter=lfs diff=lfs merge=lfs -text
+Tables/aqua_eos_rhot_v1_0.zip filter=lfs diff=lfs merge=lfs -text
+Tables/aqua_eos_rhou_v1_0.zip filter=lfs diff=lfs merge=lfs -text
