@@ -3,7 +3,7 @@
 
 ![Header](AQUA_title.jpg)
 
-A tabulated equation of state for water based on "AQUA: A Collection of H<sub>2</sub>O Equations of State for Planetary Models" by Haldemann et al. (submitted).  It combines the equation of state of Mazevet et al. (2019) with other equation of state at lower temperatures and pressures, namely:
+A tabulated equation of state for water based on "AQUA: A Collection of H<sub>2</sub>O Equations of State for Planetary Models" by Haldemann et al. (accepted).  It combines the equation of state of Mazevet et al. (2019) with other equation of state at lower temperatures and pressures, namely:
 
   - Feistel & Wagner (2006) (Ice-Ih)
   - Journaux et al. (2020)  (Ice-II, -III, -V, -VI)
@@ -22,7 +22,7 @@ This repository is available under the MIT license. If you use content of this r
 @article{Haldemann_2020a,
   doi = {},
   url = {},
-  year  = {submitted},
+  year  = {2020},
   month = {},
   volume = {},
   number = {},
