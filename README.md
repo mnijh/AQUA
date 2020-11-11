@@ -19,17 +19,22 @@ The repository further contains a simple Fortran module to access the tabulated 
 This repository is available under the MIT license. If you use content of this repository cite:
 
 ```latex
-@article{Haldemann_2020a,
-  doi = {},
-  url = {},
-  year  = {2020},
-  month = {},
-  volume = {},
-  number = {},
-  pages = {},
-  author = {Haldemann, J., Alibert, Y., Mordasini, Ch. and Benz, W. },
-  title = {AQUA: A Collection of $H_2O$ Equations of State for Planetary Models},
-  journal = {Astronomy & Astrophysics}
+
+@article{haldemann_aqua_2020,
+	title = {{AQUA}: a collection of {H2O} equations of state for planetary models},
+	volume = {643},
+	copyright = {© ESO 2020},
+	issn = {0004-6361, 1432-0746},
+	shorttitle = {{AQUA}},
+	url = {https://www.aanda.org/articles/aa/abs/2020/11/aa38367-20/aa38367-20.html},
+	doi = {10.1051/0004-6361/202038367},
+	language = {en},
+	urldate = {2020-11-10},
+	journal = {Astronomy \& Astrophysics},
+	author = {Haldemann, J. and Alibert, Y. and Mordasini, Ch. and Benz, W.},
+	month = nov,
+	year = {2020},
+	pages = {A105},
 }
 ```
 
