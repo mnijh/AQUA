@@ -198,7 +198,7 @@ END PROGRAM MY_PROGRAM
 
 ## References
 
-- Haldemann, J., Alibert, Y., Mordasini, C., & Benz, W. submitted
+- [Haldemann, J., Alibert, Y., Mordasini, C., & Benz, W. 2020, Astronomy & Astrophysics, 643, A105](https://www.aanda.org/articles/aa/abs/2020/11/aa38367-20/aa38367-20.html)
 
 - [Mazevet, S., Licari, A., Chabrier, G., & Potekhin, A. Y. 2019, Astronomy &
   Astrophysics, 621, A128](https://www.aanda.org/articles/aa/full_html/2019/01/aa33963-18/aa33963-18.html)
@@ -212,10 +212,8 @@ END PROGRAM MY_PROGRAM
 - [Brown, J. M. 2018, Fluid Phase Equilibria, 463, 18](https://www.sciencedirect.com/science/article/pii/S0378381218300530)
 - [Journaux, B., Brown, J. M., Pakhomova, A., et al. 2020, Journal of Geophysical
   Research: Planets, 125, e2019JE006176](https://doi.org/10.1029/2019JE006176)
-- McBride, B. J. G. 1996, Computer Program for Calculation of Complex Chem-
-  ical Equilibrium Compositions and Applications II. Users Manual and Pro-
-  gram Description, Tech. rep., NASA Lewis Research Center
-- Gordon, S. 1994, Computer Program for Calculation of Complex Chemical
+- McBride, B. J. & Gordon, S. 1996, Computer Program for Calculation of Complex Chemical Equilibrium Compositions and Applications II. Users Manual and Program Description, Tech. rep., NASA Lewis Research Center
+- Gordon, S. & McBride, B. J. 1994, Computer Program for Calculation of Complex Chemical
   Equilibrium Compositions and Applications. Part 1: Analysis, Tech. rep.,
   NASA Lewis Research Center
 
