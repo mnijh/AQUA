@@ -3,7 +3,7 @@
 
 ![Header](AQUA_title.jpg)
 
-A tabulated equation of state for water based on "AQUA: A Collection of H<sub>2</sub>O Equations of State for Planetary Models" by Haldemann et al. (submitted).  It combines the equation of state of Mazevet et al. (2019) with other equation of state at lower temperatures and pressures, namely:
+A tabulated equation of state for water based on "AQUA: A Collection of H<sub>2</sub>O Equations of State for Planetary Models" by Haldemann et al. (accepted).  It combines the equation of state of Mazevet et al. (2019) with other equation of state at lower temperatures and pressures, namely:
 
   - Feistel & Wagner (2006) (Ice-Ih)
   - Journaux et al. (2020)  (Ice-II, -III, -V, -VI)
@@ -19,17 +19,22 @@ The repository further contains a simple Fortran module to access the tabulated 
 This repository is available under the MIT license. If you use content of this repository cite:
 
 ```latex
-@article{Haldemann_2020a,
-  doi = {},
-  url = {},
-  year  = {submitted},
-  month = {},
-  volume = {},
-  number = {},
-  pages = {},
-  author = {Haldemann, J., Alibert, Y., Mordasini, Ch. and Benz, W. },
-  title = {AQUA: A Collection of $H_2O$ Equations of State for Planetary Models},
-  journal = {Astronomy & Astrophysics}
+
+@article{haldemann_aqua_2020,
+	title = {{AQUA}: a collection of {H2O} equations of state for planetary models},
+	volume = {643},
+	copyright = {© ESO 2020},
+	issn = {0004-6361, 1432-0746},
+	shorttitle = {{AQUA}},
+	url = {https://www.aanda.org/articles/aa/abs/2020/11/aa38367-20/aa38367-20.html},
+	doi = {10.1051/0004-6361/202038367},
+	language = {en},
+	urldate = {2020-11-10},
+	journal = {Astronomy \& Astrophysics},
+	author = {Haldemann, J. and Alibert, Y. and Mordasini, Ch. and Benz, W.},
+	month = nov,
+	year = {2020},
+	pages = {A105},
 }
 ```
 
@@ -193,7 +198,7 @@ END PROGRAM MY_PROGRAM
 
 ## References
 
-- Haldemann, J., Alibert, Y., Mordasini, C., & Benz, W. submitted
+- [Haldemann, J., Alibert, Y., Mordasini, C., & Benz, W. 2020, Astronomy & Astrophysics, 643, A105](https://www.aanda.org/articles/aa/abs/2020/11/aa38367-20/aa38367-20.html)
 
 - [Mazevet, S., Licari, A., Chabrier, G., & Potekhin, A. Y. 2019, Astronomy &
   Astrophysics, 621, A128](https://www.aanda.org/articles/aa/full_html/2019/01/aa33963-18/aa33963-18.html)
@@ -207,10 +212,8 @@ END PROGRAM MY_PROGRAM
 - [Brown, J. M. 2018, Fluid Phase Equilibria, 463, 18](https://www.sciencedirect.com/science/article/pii/S0378381218300530)
 - [Journaux, B., Brown, J. M., Pakhomova, A., et al. 2020, Journal of Geophysical
   Research: Planets, 125, e2019JE006176](https://doi.org/10.1029/2019JE006176)
-- McBride, B. J. G. 1996, Computer Program for Calculation of Complex Chem-
-  ical Equilibrium Compositions and Applications II. Users Manual and Pro-
-  gram Description, Tech. rep., NASA Lewis Research Center
-- Gordon, S. 1994, Computer Program for Calculation of Complex Chemical
+- McBride, B. J. & Gordon, S. 1996, Computer Program for Calculation of Complex Chemical Equilibrium Compositions and Applications II. Users Manual and Program Description, Tech. rep., NASA Lewis Research Center
+- Gordon, S. & McBride, B. J. 1994, Computer Program for Calculation of Complex Chemical
   Equilibrium Compositions and Applications. Part 1: Analysis, Tech. rep.,
   NASA Lewis Research Center
 
