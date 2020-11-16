@@ -21,18 +21,22 @@ MODULE AQUA_EOS
     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
     !
     ! If used for a scientific publication please cite:
-    !     @article{Haldemann_2020a,
-    !       doi = {},
-    !       url = {},
-    !       year  = {2020},
-    !       month = {},
-    !       volume = {},
-    !       number = {},
-    !       pages = {},
-    !       author = {Haldemann, J., Alibert, Y., Mordasini, Ch. and Benz, W. },
-    !       title = {AQUA: A Collection of $H_2O$ Equations of State for Planetary Models},
-    !       journal = {Astronomy & Astrophysics}
-    !     }
+    !     @article{haldemann_aqua_2020,
+    !         title = {{AQUA}: a collection of {H2O} equations of state for planetary models},
+    !         volume = {643},
+    !         copyright = {© ESO 2020},
+    !         issn = {0004-6361, 1432-0746},
+    !         shorttitle = {{AQUA}},
+    !         url = {https://www.aanda.org/articles/aa/abs/2020/11/aa38367-20/aa38367-20.html},
+    !         doi = {10.1051/0004-6361/202038367},
+    !         language = {en},
+    !         urldate = {2020-11-10},
+    !         journal = {Astronomy \& Astrophysics},
+    !         author = {Haldemann, J. and Alibert, Y. and Mordasini, Ch. and Benz, W.},
+    !         month = nov,
+    !         year = {2020},
+    !         pages = {A105},
+    !         }
     !
     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
     IMPLICIT NONE
@@ -300,7 +304,7 @@ MODULE AQUA_EOS
             endif
         else
             lRho = log10(Rho)
-            lT = log10(T)
+            lT   = log10(T)
         endif
 
         EOS = BILINEAR_INTERPOLATION(lRho,lT,Rho1_arr,T2_arr,EOS_RhoT)
@@ -438,7 +442,7 @@ MODULE AQUA_EOS
                 BILINEAR_INTERPOLATION = interpol_1d(y,yarr(iy0),yarr(iy1),zarr(:,iy0,ix0),zarr(:,iy1,ix0))
             endif
         else if (iy0.eq.iy1) then
-            BILINEAR_INTERPOLATION = interpol_1d(x,xarr(ix0),xarr(ix1),zarr(:,iy0,ix0),zarr(:,iy0,iy1))
+            BILINEAR_INTERPOLATION = interpol_1d(x,xarr(ix0),xarr(ix1),zarr(:,iy0,ix0),zarr(:,iy0,ix1))
         else
             BILINEAR_INTERPOLATION = interpol_2d(x,y,xarr(ix0),xarr(ix1),yarr(iy0),yarr(iy1),&
                 zarr(:,iy0,ix0),zarr(:,iy0,ix1),zarr(:,iy1,ix0),zarr(:,iy1,ix1))

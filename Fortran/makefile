@@ -9,6 +9,9 @@ aqua_eos.o: aqua_eos.f95
 sample_implementation: sample_implementation.f95 aqua_eos.o
 	$(FC) $(FCOPTIONS) -o $@ $^ 
 
+test: test.f95 aqua_eos.o
+	$(FC) $(FCOPTIONS) -o $@ $^
+
 PHONY.: clean
 
 clean :
