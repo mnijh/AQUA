@@ -195,6 +195,8 @@ PROGRAM MY_PROGRAM
   
 END PROGRAM MY_PROGRAM
 ```
+## Known Issues
+- Grid spacing of the rho-T and rho-U tables is not small enough around 1000 kg/m^3. (planed fix for v0.2)
 
 ## References
 
